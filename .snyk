@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - connect-mongo > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - karma-mocha-reporter > karma > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - mongoose > async > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - karma-mocha-reporter > karma > log4js > streamroller > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - karma-mocha-reporter > karma > log4js > streamroller > async > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
+    - karma-phantomjs-launcher > phantomjs > request > form-data > async > lodash:
+        patched: '2020-04-30T21:09:18.854Z'
